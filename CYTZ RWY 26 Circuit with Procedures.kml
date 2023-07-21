@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<open>1</open>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<color>ff0058ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<color>ff0058ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00c2fd</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8072fcfa</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00c2fd</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<color>ff0058ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<color>ff0058ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00c2fd</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin20">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00c2fd</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>8072fcfa</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CYTZ RWY 26 Circuit with Altitude Shadow</name>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>
+				-79.39969742099055,43.62835748636109,78 -79.41631158761967,43.62418640638991,306 -79.40856791477692,43.60535599279487,458 -79.36461408343197,43.61598465823337,458 -79.37380104794399,43.63474280831986,306 -79.38971053190923,43.63082300265567,78 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>CYTZ RWY 26 Circuit Shadow</name>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2</width>
+			</LineStyle>
+		</Style>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-79.39969742099055,43.62835748636109,77 -79.41631158761967,43.62418640638991,77 -79.40856791477692,43.60535599279487,77 -79.36461408343197,43.61598465823337,77 -79.37380104794399,43.63474280831986,77 -79.38971053190923,43.63082300265567,77 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Start of Climb</name>
+		<description>Power: Full 2500 RPM
+Nose Up attitude
+Trim for Vy 79 knots / 90 MPH</description>
+		<LookAt>
+			<longitude>-79.3998914599406</longitude>
+			<latitude>43.62804404214354</latitude>
+			<altitude>0</altitude>
+			<heading>-111.1766684059448</heading>
+			<tilt>40.84945107222</tilt>
+			<range>1291.303209710558</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.39984874896068,43.62834422744081,78</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Turn Left Cross-Wind</name>
+		<LookAt>
+			<longitude>-79.38402345219167</longitude>
+			<latitude>43.62381265674058</latitude>
+			<altitude>0</altitude>
+			<heading>148.2448397208907</heading>
+			<tilt>8.288793475676162</tilt>
+			<range>5583.432489482895</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.41449137622317,43.62459403466728,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Turn left Down-Wind</name>
+		<LookAt>
+			<longitude>-79.39260997131822</longitude>
+			<latitude>43.62672413998643</latitude>
+			<altitude>0</altitude>
+			<heading>-107.0689673972005</heading>
+			<tilt>8.288798555848665</tilt>
+			<range>5587.351451162783</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.40932052840893,43.60672509013833,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Start of Cruise</name>
+		<description>Nose Level - Cruise Attitude
+Power: 2200 RPM
+Trim to maintain altitude 1250 feet</description>
+		<LookAt>
+			<longitude>-79.40887375478387</longitude>
+			<latitude>43.60914847412996</latitude>
+			<altitude>0</altitude>
+			<heading>-111.1828659374728</heading>
+			<tilt>40.85430118419205</tilt>
+			<range>2116.944641231079</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>absolute</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.4077627895078,43.60556775483805,458</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rwy 08 Threshold Abeam / Prelanding Checks</name>
+		<description>Seatbelts/Harness fastned
+Primer Locked
+Mags on Both
+Unnessesary Electrics Off
+Carb Heat On (pull out)
+Mixture Rich (pushed in)
+Full on Both</description>
+		<LookAt>
+			<longitude>-79.38346850204761</longitude>
+			<latitude>43.62369449417961</latitude>
+			<altitude>0</altitude>
+			<heading>-107.0626609631871</heading>
+			<tilt>8.28879383657377</tilt>
+			<range>5583.708956301337</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>absolute</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.3955122412282,43.60842005128412,458</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rwy 26 Threshold Abeam / End of Cruise</name>
+		<description>Power: reduce to 1700 RPM
+Hold Nose Up (will want to sink), maintain 1250 ft Altitude
+Let speed reduce to within White Arc</description>
+		<LookAt>
+			<longitude>-79.38346850204761</longitude>
+			<latitude>43.62369449417961</latitude>
+			<altitude>0</altitude>
+			<heading>-107.0626609631871</heading>
+			<tilt>8.28879383657377</tilt>
+			<range>5583.708956301337</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>absolute</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.37911015505664,43.61239969627177,458</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Prepare for Decent</name>
+		<description>Confirm Speed in White Arc (less than 80 knots)
+Flaps 10 degrees (nose will pitch up)
+Power: Increase to 2000 RPM
+Trim for 70 Knots / 80 MPH</description>
+		<LookAt>
+			<longitude>-79.38956494315848</longitude>
+			<latitude>43.61857085094246</latitude>
+			<altitude>0</altitude>
+			<heading>-107.0669021578944</heading>
+			<tilt>0</tilt>
+			<range>4287.345175809093</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>absolute</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.37301086614399,43.61399771827326,458</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Turn left Base</name>
+		<LookAt>
+			<longitude>-79.39260997131822</longitude>
+			<latitude>43.62672413998643</latitude>
+			<altitude>0</altitude>
+			<heading>-107.0689673972005</heading>
+			<tilt>8.288798555848665</tilt>
+			<range>5587.351451162783</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.36683356947566,43.61550433835929,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Reduce Power</name>
+		<description>Reduce Power to 1500 RPM
+Flaps: 20 degrees
+TRIM for 65 knots / 75 MPH</description>
+		<LookAt>
+			<longitude>-79.3822043256102</longitude>
+			<latitude>43.62458955466425</latitude>
+			<altitude>0</altitude>
+			<heading>-107.0617887703813</heading>
+			<tilt>8.288797852247699</tilt>
+			<range>5586.809018253787</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin3</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>absolute</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.36964120769076,43.6262962624982,350</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Turn left Final</name>
+		<LookAt>
+			<longitude>-79.39260995832196</longitude>
+			<latitude>43.62672413304973</latitude>
+			<altitude>0</altitude>
+			<heading>-107.068967412289</heading>
+			<tilt>8.288798558724698</tilt>
+			<range>5587.351422782613</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-79.37245049447765,43.63175318403226,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
