@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00c2fd</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00c2fd</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>CYTZ RWY 26 Circuit with Altitude</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+            <coordinates>
+				-79.39969742099055,43.62835748636109,78 -79.41631158761967,43.62418640638991,306 -79.40856791477692,43.60535599279487,458 -79.36461408343197,43.61598465823337,458 -79.37380104794399,43.63474280831986,306 -79.38971053190923,43.63082300265567,78 
+			</coordinates>
+        <altitudeMode>absolute</altitudeMode>
+		</LineString>
+        <name>CYTZ RWY 26 Circuit with Altitude Shadow</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+	</Placemark>
+    <Placemark>
+        <name>CYTZ RWY 26 Circuit Shadow</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+        <LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-79.39969742099055,43.62835748636109,77 -79.41631158761967,43.62418640638991,77 -79.40856791477692,43.60535599279487,77 -79.36461408343197,43.61598465823337,77 -79.37380104794399,43.63474280831986,77 -79.38971053190923,43.63082300265567,77 
+			</coordinates>
+            <altitudeMode>clampToGround</altitudeMode>
+		</LineString>
+         <Style> 
+            <LineStyle>  
+            <color>#ff0000ff</color>
+            <width>2</width>
+            </LineStyle> 
+        </Style>
+    </Placemark>
+</Document>
+</kml>
